@@ -1,6 +1,6 @@
 ***Dataset***
 
-The dataset summary.csv is a tidy dataset, which is a summary of Human Activity Recognition (HAR) Using Smartphones Dataset (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+The dataset summary.txt is a tidy dataset, which is a summary of Human Activity Recognition (HAR) Using Smartphones Dataset (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 The variables in the dataset are as follows - 
 
