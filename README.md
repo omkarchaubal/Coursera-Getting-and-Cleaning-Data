@@ -7,9 +7,9 @@ It contains the following:
 
 - 'run_analysis.R'
 
-- 'summary.csv'
+- 'summary.txt'
 
-The R script downloads the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and creates a tidy dataset summary. 
+The R script downloads the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and creates a tidy dataset 'summary.txt'. 
 
 For data dictionary and data tranformations, view 'CODEBOOK.md'. 
 
