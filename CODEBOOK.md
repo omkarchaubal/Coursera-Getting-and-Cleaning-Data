@@ -81,23 +81,23 @@ The variables in the dataset are as follows -
 
 	The HAR dataset is downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip as a zip file. The dataset includes the following files:
 
-- 'features_info.txt': Shows information about the variables used on the feature vector.
+	- 'features_info.txt': Shows information about the variables used on the feature vector.
 
-- 'features.txt': List of all features.
+	- 'features.txt': List of all features.
 
-- 'activity_labels.txt': Links the class labels with their activity name.
+	- 'activity_labels.txt': Links the class labels with their activity name.
 
-- 'train/X_train.txt': Training set.
+	- 'train/X_train.txt': Training set.
 
-- 'train/y_train.txt': Training labels.
+	- 'train/y_train.txt': Training labels.
 
-- 'test/X_test.txt': Test set.
+	- 'test/X_test.txt': Test set.
 
-- 'test/y_test.txt': Test labels.
+	- 'test/y_test.txt': Test labels.
 
-- 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
+	- 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 
-- 'test/subject_test.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30
+	- 'test/subject_test.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30
 
 	The files 'test/X_test.txt', 'test/y_test.txt' and 'test/subject_test.txt' are combined to get test dataset.
 	The files 'train/X_train.txt', 'train/y_train.txt' and 'train/subject_train.txt' are combined to get train dataset.
