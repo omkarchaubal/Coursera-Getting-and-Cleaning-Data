@@ -76,7 +76,8 @@ The variables in the dataset are as follows -
 ***Transformations***
 
 1. Merges the training and the test sets to create one data set
-The HAR dataset is downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip as a zip file. The dataset includes the following files:
+
+	The HAR dataset is downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip as a zip file. The dataset includes the following files:
 
 - 'features_info.txt': Shows information about the variables used on the feature vector.
 
