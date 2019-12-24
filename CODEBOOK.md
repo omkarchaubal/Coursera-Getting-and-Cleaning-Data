@@ -102,16 +102,16 @@ The HAR dataset is downloaded from https://d396qusza40orc.cloudfront.net/getdata
 
 2. Extracts only the measurements on the mean and standard deviation for each measurement
 
-The HAR dataset contains many features. The 'features.txt' is used to get the indices of the features which contain "mean()" or "std" and these indices are used to filter out only the measuresments on mean and standard deviation for each measurement from the dataset in step 1.
+	The HAR dataset contains many features. The 'features.txt' is used to get the indices of the features which contain "mean()" or "std" and these indices are used to filter out only the measuresments on mean and standard deviation for each measurement from the dataset in step 1.
 
 3. Uses descriptive activity names to name the activities in the data set
 
-The dataset from step 2 is merged with 'activity_labels.txt' to get the activity names. Once activity names are derived, the activity labels become redundant and is removed from the dataset.
+	The dataset from step 2 is merged with 'activity_labels.txt' to get the activity names. Once activity names are derived, the activity labels become redundant and is removed from the dataset.
 
 4. Appropriately labels the data set with descriptive variable names
 
-The dataset from step 3 is merged with subset of 'features.txt' (indices of the features which contain "mean()" or "std") to get descriptive names for the feature measurements. To make the variable names more readable, "()" is removed from all variable names.
+	The dataset from step 3 is merged with subset of 'features.txt' (indices of the features which contain "mean()" or "std") to get descriptive names for the feature measurements. To make the variable names more readable, "()" is removed from all variable names.
 
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
 
-In the final step, the dataset from step 4 is aggregated by finding the mean of each variable grouped by activity and subject. The variable names are prefixed with "mean" to make it clear. 
+	In the final step, the dataset from step 4 is aggregated by finding the mean of each variable grouped by activity and subject. The variable names are prefixed with "mean" to make it clear. 
