@@ -1,4 +1,5 @@
 ***Dataset***
+
 The dataset summary.csv is a tidy dataset, which is a summary of Human Activity Recognition (HAR) Using Smartphones Dataset (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 The variables in the dataset are as follows - 
@@ -73,6 +74,7 @@ The variables in the dataset are as follows -
 - mean-fBodyBodyGyroJerkMag-std: Mean of frequency domain body angular velocity jerk magnitude standard deviation normalized and bounded within [-1,1]
 
 =================
+
 ***Transformations***
 
 1. Merges the training and the test sets to create one data set
